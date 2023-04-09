@@ -30,12 +30,7 @@ public class SwagLabs {
 	  driver.findElement(By.name("password")).sendKeys("secret_sauce");
 	  driver.findElement(By.name("login-button")).click();
   }
-  @Test
-  public void selectTheProduct1() {
-	  driver.findElement(By.xpath("(//img[@class='inventory_item_img'])[1]")).click();
-	  driver.findElement(By.xpath("//button[@class='btn btn_primary btn_small btn_inventory']")).click();
-	  driver.findElement(By.xpath("//button[@class='btn btn_secondary back btn_large inventory_details_back_button']")).click();
-  }
+ 
   @Test
   public void selectTheroduct1() {
 	  driver.findElement(By.xpath("(//img[@class='inventory_item_img'])[1]")).click();
